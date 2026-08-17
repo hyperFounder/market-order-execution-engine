@@ -5,7 +5,7 @@ A low-latency, non-blocking **Spring Boot 3** order execution engine with asynch
 - **Non-Blocking Architecture:** Ingests REST requests (`/api/v1/orders/submit`) and returns immediate `202 ACCEPTED` acknowledgments while routing executes asynchronously.
 - **Thread-safe** `ConcurrentHashMap` in-memory store for O(1) order status storage (no database) I/O overhead.
 
-## Architecture
+## Architecture 
 ```text
 [ Client ] ---> ( POST /submit ) ---> [ OrderIngestionController ]
                                             │
