@@ -1,5 +1,4 @@
 ## Summary
-
 A low-latency, non-blocking **Spring Boot 3** order execution engine with asynchronous processing. It ingests market orders via non-blocking REST endpoints and offloads processing to a custom thread pool ```(ThreadPoolTaskExecutor: 8 core / 16 max threads, 1000 queue capacity).```
 
 ## Key Features
